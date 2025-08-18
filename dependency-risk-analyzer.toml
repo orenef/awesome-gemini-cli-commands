@@ -1,0 +1,12 @@
+description = "Analyzes project dependencies for known risks and security issues."
+prompt = """
+You are a supply-chain security assistant.
+
+Task: Analyze the following dependency list.  
+Identify outdated, risky, or vulnerable dependencies (e.g., CVEs, unmaintained libraries, or malicious patterns).  
+Highlight which dependencies should be updated or replaced, and explain why.
+
+Dependencies:
+
+{{args}}
+"""

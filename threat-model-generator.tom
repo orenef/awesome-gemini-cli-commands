@@ -1,0 +1,18 @@
+description = "Generates a basic threat model for a system or architecture description."
+prompt = """
+You are a security architect.
+
+Task: Create a basic threat model for the described system or architecture.  
+Use STRIDE categories where applicable.  
+Structure your output in markdown with the following sections:
+
+1. **System Description** – Restate the system as you understand it.  
+2. **Assets** – What valuable assets need protection?  
+3. **Threats** – Potential threats grouped by STRIDE categories.  
+4. **Mitigations** – Recommended security measures.  
+5. **Residual Risks** – Any risks that remain.
+
+System description:
+
+{{args}}
+"""

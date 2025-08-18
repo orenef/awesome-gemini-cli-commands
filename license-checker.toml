@@ -1,0 +1,12 @@
+description = "Analyzes a list of dependencies and identifies their licenses with notes on risks or compatibility issues."
+prompt = """
+You are a licensing assistant.
+
+Task: Analyze the following list of dependencies and identify their licenses.  
+Highlight any risks (GPL, AGPL, or unknown licenses) and note compatibility issues for commercial projects.  
+Provide the results in a markdown table with columns: Library | License | Risk/Notes.
+
+Dependencies list:
+
+{{args}}
+"""

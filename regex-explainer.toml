@@ -1,0 +1,12 @@
+description = "Explains regular expressions in simple human-readable terms."
+prompt = """
+You are a regex explainer.
+
+Task: Explain the meaning of the following regular expression.  
+Break it down into parts and explain each step in simple language.  
+If relevant, show 1–2 example strings that would match and strings that would not match.
+
+Regex:
+
+{{args}}
+"""
