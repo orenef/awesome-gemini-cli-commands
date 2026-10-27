@@ -34,6 +34,7 @@ Each command is defined in a `.toml` file under the [`commands/`](./commands) di
 
 ### ⚙️ Developer Productivity
 - **[Regex Explainer](./commands/regex-explainer.toml)** – Explains complex regular expressions in plain language.  
+- **[APN Contract Inspector](./commands/apn-contract.toml)** – Inspects an existing Agent Payment Node CLI discovery contract on Apple Silicon macOS; reports prerequisites and advertised capabilities without payment operations.
 
 ### 📑 Knowledge Sharing
 - **[Knowledge Sharing](./commands/knowledge-sharing.toml)** – Transforms notes into a shareable technical doc.  
